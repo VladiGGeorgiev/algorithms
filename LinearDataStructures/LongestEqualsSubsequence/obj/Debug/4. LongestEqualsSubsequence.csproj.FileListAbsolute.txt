@@ -1,0 +1,6 @@
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LongestEqualsSubsequence\bin\Debug\LongestEqualsSubsequence.exe.config
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LongestEqualsSubsequence\bin\Debug\LongestEqualsSubsequence.exe
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LongestEqualsSubsequence\bin\Debug\LongestEqualsSubsequence.pdb
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LongestEqualsSubsequence\obj\Debug\4. LongestEqualsSubsequence.csprojResolveAssemblyReference.cache
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LongestEqualsSubsequence\obj\Debug\LongestEqualsSubsequence.exe
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LongestEqualsSubsequence\obj\Debug\LongestEqualsSubsequence.pdb

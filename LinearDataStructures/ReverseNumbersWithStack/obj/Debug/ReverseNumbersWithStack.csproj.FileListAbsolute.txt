@@ -1,0 +1,8 @@
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ReverseNumbersWithStack\bin\Debug\ReverseNumbersWithStack.exe.config
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ReverseNumbersWithStack\bin\Debug\ReverseNumbersWithStack.exe
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ReverseNumbersWithStack\bin\Debug\ReverseNumbersWithStack.pdb
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ReverseNumbersWithStack\bin\Debug\LinearDataStructures.exe
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ReverseNumbersWithStack\bin\Debug\LinearDataStructures.pdb
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ReverseNumbersWithStack\obj\Debug\ReverseNumbersWithStack.csprojResolveAssemblyReference.cache
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ReverseNumbersWithStack\obj\Debug\ReverseNumbersWithStack.exe
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ReverseNumbersWithStack\obj\Debug\ReverseNumbersWithStack.pdb

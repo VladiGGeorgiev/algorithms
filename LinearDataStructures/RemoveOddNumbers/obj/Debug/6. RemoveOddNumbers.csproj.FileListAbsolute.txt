@@ -1,0 +1,6 @@
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveOddNumbers\bin\Debug\RemoveOddNumbers.exe.config
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveOddNumbers\bin\Debug\RemoveOddNumbers.exe
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveOddNumbers\bin\Debug\RemoveOddNumbers.pdb
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveOddNumbers\obj\Debug\RemoveOddNumbers.exe
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveOddNumbers\obj\Debug\RemoveOddNumbers.pdb
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveOddNumbers\obj\Debug\6. RemoveOddNumbers.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LinearDataStructures\bin\Debug\LinearDataStructures.exe.config
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LinearDataStructures\bin\Debug\LinearDataStructures.exe
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LinearDataStructures\bin\Debug\LinearDataStructures.pdb
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LinearDataStructures\obj\Debug\LinearDataStructures.exe
+D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\LinearDataStructures\obj\Debug\LinearDataStructures.pdb
