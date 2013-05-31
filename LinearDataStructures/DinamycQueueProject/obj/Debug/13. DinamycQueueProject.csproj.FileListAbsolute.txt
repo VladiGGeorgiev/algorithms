@@ -1,6 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\DinamycQueueProject\bin\Debug\DinamycQueueProject.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\DinamycQueueProject\bin\Debug\DinamycQueueProject.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\DinamycQueueProject\bin\Debug\DinamycQueueProject.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\DinamycQueueProject\obj\Debug\13. DinamycQueueProject.csprojResolveAssemblyReference.cache
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\DinamycQueueProject\obj\Debug\DinamycQueueProject.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\DinamycQueueProject\obj\Debug\DinamycQueueProject.pdb

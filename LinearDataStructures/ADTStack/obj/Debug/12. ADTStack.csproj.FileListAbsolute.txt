@@ -1,6 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ADTStack\obj\Debug\12. ADTStack.csprojResolveAssemblyReference.cache
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ADTStack\bin\Debug\ADTStack.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ADTStack\bin\Debug\ADTStack.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ADTStack\bin\Debug\ADTStack.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ADTStack\obj\Debug\ADTStack.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ADTStack\obj\Debug\ADTStack.pdb

@@ -1,5 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Sequence\bin\Debug\Sequence.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Sequence\bin\Debug\Sequence.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Sequence\bin\Debug\Sequence.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Sequence\obj\Debug\Sequence.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Sequence\obj\Debug\Sequence.pdb

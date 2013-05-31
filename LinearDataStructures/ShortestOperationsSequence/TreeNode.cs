@@ -10,7 +10,6 @@ namespace ShortestOperationsSequence
     {
         private int value;
         private List<TreeNode> children;
-        public bool hasParrent { get; set; }
 
         public List<TreeNode> Children
         {
@@ -41,11 +40,10 @@ namespace ShortestOperationsSequence
 
         public void AddChild(TreeNode child)
         {
-            child.hasParrent = true;
             this.children.Add(child);
         }
 
-        public void AddChild(params Tree[] children)
+        public void AddChildren(params Tree[] children)
         {
             foreach (var child in children)
             {

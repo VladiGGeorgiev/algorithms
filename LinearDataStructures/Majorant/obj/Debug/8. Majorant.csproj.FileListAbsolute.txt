@@ -1,6 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Majorant\bin\Debug\Majorant.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Majorant\bin\Debug\Majorant.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Majorant\bin\Debug\Majorant.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Majorant\obj\Debug\8. Majorant.csprojResolveAssemblyReference.cache
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Majorant\obj\Debug\Majorant.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\Majorant\obj\Debug\Majorant.pdb

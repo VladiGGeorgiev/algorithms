@@ -1,6 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ShortestOperationsSequence\bin\Debug\ShortestOperationsSequence.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ShortestOperationsSequence\bin\Debug\ShortestOperationsSequence.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ShortestOperationsSequence\bin\Debug\ShortestOperationsSequence.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ShortestOperationsSequence\obj\Debug\ShortestOperationsSequence.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ShortestOperationsSequence\obj\Debug\ShortestOperationsSequence.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\ShortestOperationsSequence\obj\Debug\10. ShortestOperationsSequence.csprojResolveAssemblyReference.cache

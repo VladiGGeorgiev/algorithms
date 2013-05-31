@@ -1,6 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\CountNumbersOccurs\bin\Debug\CountNumbersOccurs.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\CountNumbersOccurs\bin\Debug\CountNumbersOccurs.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\CountNumbersOccurs\bin\Debug\CountNumbersOccurs.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\CountNumbersOccurs\obj\Debug\CountNumbersOccurs.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\CountNumbersOccurs\obj\Debug\CountNumbersOccurs.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\CountNumbersOccurs\obj\Debug\7. CountNumbersOccurs.csprojResolveAssemblyReference.cache

@@ -1,6 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveNegativeNumbers\bin\Debug\RemoveNegativeNumbers.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveNegativeNumbers\bin\Debug\RemoveNegativeNumbers.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveNegativeNumbers\bin\Debug\RemoveNegativeNumbers.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveNegativeNumbers\obj\Debug\5. RemoveNegativeNumbers.csprojResolveAssemblyReference.cache
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveNegativeNumbers\obj\Debug\RemoveNegativeNumbers.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\RemoveNegativeNumbers\obj\Debug\RemoveNegativeNumbers.pdb

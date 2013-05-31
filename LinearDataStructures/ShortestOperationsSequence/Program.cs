@@ -8,24 +8,27 @@ namespace ShortestOperationsSequence
 {
     class Program
     {
-        static int n = 5;
-        static int m = 30;
-        static Queue<int[]> queue = new Queue<int[]>();
-        static Stack<int> current = new Stack<int>();
+        const int N = 5;
+        const int M = 30;
+        static Queue<int[]> allPaths = new Queue<int[]>();
+        static Stack<int> currentPath = new Stack<int>();
 
         static void Main(string[] args)
         {
             Queue<int> operationsSequence = new Queue<int>();
             
-            Tree tree = new Tree(n);
-            var realTree = CreateTree(tree, n, m);
+            Tree root = new Tree(N);
+            var treeOfSteps = CreateTree(root, N, M);
 
-            DFS(realTree.Root);
+            DFS(treeOfSteps.Root);
 
-            var orderedOperations = queue.OrderBy(x => x.Count());
-            int minPathLength = orderedOperations.First().Count();
-            var minPaths = orderedOperations.Where(x => x.Count() == minPathLength);
+            var minPaths = GetMinLengthPaths();
 
+            PrintPaths(minPaths);
+        }
+  
+        private static void PrintPaths(IEnumerable<int[]> minPaths)
+        {
             foreach (var path in minPaths)
             {
                 var currentPath = path.Reverse();
@@ -36,49 +39,57 @@ namespace ShortestOperationsSequence
                 Console.WriteLine();
             }
         }
+  
+        private static IEnumerable<int[]> GetMinLengthPaths()
+        {
+            var orderedPaths = allPaths.OrderBy(x => x.Count());
+            int minPathLength = orderedPaths.First().Count();
+            var minPaths = orderedPaths.Where(x => x.Count() == minPathLength);
+            return minPaths;
+        }
 
         private static void DFS(TreeNode node)
         {
-            current.Push(node.Value);
-            if (node.Value == m)
+            currentPath.Push(node.Value);
+            if (node.Value == M)
             {
-                queue.Enqueue(current.ToArray());
+                allPaths.Enqueue(currentPath.ToArray());
             }
             foreach (var child in node.Children)
             {
                 DFS(child);
             }
-            current.Pop();
+            currentPath.Pop();
         }
   
-        private static Tree CreateTree(Tree tree, int n, int m)
+        private static Tree CreateTree(Tree tree, int currentNumber, int maxNumber)
         {
-            int currentElement = n;
+            int currentElement = currentNumber;
 
-            if (currentElement > m)
+            if (currentElement > maxNumber)
             {
                 return tree;
             }
 
             Tree currentChild = new Tree(currentElement * 2);
-            if (currentElement * 2 <= m)
+            if (currentElement * 2 <= maxNumber)
             {
-                var currentTree = CreateTree(currentChild, currentElement * 2, m);
-                tree.Root.AddChild(currentTree);
+                var currentTree = CreateTree(currentChild, currentElement * 2, maxNumber);
+                tree.Root.AddChildren(currentTree);
             }
 
             currentChild = new Tree(currentElement + 2);
-            if (currentElement + 2 <= m )
+            if (currentElement + 2 <= maxNumber )
             {
-                var currentTree = CreateTree(currentChild, currentElement + 2, m);
-                tree.Root.AddChild(currentTree);
+                var currentTree = CreateTree(currentChild, currentElement + 2, maxNumber);
+                tree.Root.AddChildren(currentTree);
             }
 
             currentChild = new Tree(currentElement + 1);
-            if (currentElement + 1 <= m)
+            if (currentElement + 1 <= maxNumber)
             {
-                var currentTree = CreateTree(currentChild, currentElement + 1, m);
-                tree.Root.AddChild(currentTree);   
+                var currentTree = CreateTree(currentChild, currentElement + 1, maxNumber);
+                tree.Root.AddChildren(currentTree);   
             }
 
             return tree;

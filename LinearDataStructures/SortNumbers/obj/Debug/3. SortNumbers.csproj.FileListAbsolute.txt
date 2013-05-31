@@ -1,6 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\SortNumbers\bin\Debug\SortNumbers.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\SortNumbers\bin\Debug\SortNumbers.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\SortNumbers\bin\Debug\SortNumbers.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\SortNumbers\obj\Debug\SortNumbers.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\SortNumbers\obj\Debug\SortNumbers.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\LinearDataStructures\SortNumbers\obj\Debug\3. SortNumbers.csprojResolveAssemblyReference.cache
