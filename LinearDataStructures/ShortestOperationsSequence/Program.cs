@@ -22,9 +22,9 @@ namespace ShortestOperationsSequence
 
             DFS(realTree.Root);
 
-            var a = queue.OrderBy(x => x.Count());
-            int minPathLength = a.First().Count();
-            var minPaths = a.Where(x => x.Count() == minPathLength);
+            var orderedOperations = queue.OrderBy(x => x.Count());
+            int minPathLength = orderedOperations.First().Count();
+            var minPaths = orderedOperations.Where(x => x.Count() == minPathLength);
 
             foreach (var path in minPaths)
             {
@@ -37,27 +37,6 @@ namespace ShortestOperationsSequence
             }
         }
 
-        private static void BFS(TreeNode node)
-        {
-            Queue<TreeNode> queue = new Queue<TreeNode>();
-            queue.Enqueue(node);
-            while (queue.Count > 0)
-            {
-                var currentNode = queue.Dequeue();
-
-                Console.WriteLine(currentNode.Value);
-                if (currentNode.Value == 16)
-                {
-                    break;
-                }
-
-                foreach (var child in currentNode.Children)
-                {
-                    queue.Enqueue(child);
-                }
-            }
-        }
-  
         private static void DFS(TreeNode node)
         {
             current.Push(node.Value);
