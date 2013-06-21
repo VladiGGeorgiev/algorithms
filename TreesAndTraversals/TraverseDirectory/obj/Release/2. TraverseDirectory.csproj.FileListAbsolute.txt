@@ -1,6 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TraverseDirectory\bin\Release\TraverseDirectory.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TraverseDirectory\bin\Release\TraverseDirectory.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TraverseDirectory\bin\Release\TraverseDirectory.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TraverseDirectory\obj\Release\TraverseDirectory.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TraverseDirectory\obj\Release\TraverseDirectory.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TraverseDirectory\obj\Release\2. TraverseDirectory.csprojResolveAssemblyReference.cache

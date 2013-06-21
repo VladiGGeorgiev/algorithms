@@ -9,6 +9,8 @@ namespace MaximalPath
     class Tree 
     {
         static List<int> PathsLength = new List<int>();
+        static List<List<Node>> searchedPaths = new List<List<Node>>();
+       
         static void Main()
         {
             int nodesNumber = int.Parse(Console.ReadLine());
@@ -35,6 +37,32 @@ namespace MaximalPath
 
             //d) - Find the longest path in the tree
             int maxHeight = FindMaxPath(root);
+
+            //e) - all paths in the tree with given sum S of their nodes
+            List<List<Node>> listOfPath = new List<List<Node>>();
+            List<Node> currentPath = new List<Node>();
+            FindPathWithSum(root, listOfPath, currentPath, 0, 8);
+        }
+
+        private static void FindPathWithSum(Node root, List<List<Node>> listOfPaths, List<Node> pathSoFar, int currentSum, int targetSum)
+        {
+            if (currentSum == targetSum)
+            {
+                Node[] nodePath = new Node[pathSoFar.Count];
+                pathSoFar.CopyTo(nodePath);
+                listOfPaths.Add(new List<Node>(nodePath));
+                pathSoFar.RemoveRange(1, pathSoFar.Count - 1);
+            }
+
+            foreach (var item in root.Children)
+            {
+                pathSoFar.Add(item);
+                FindPathWithSum(item, listOfPaths, pathSoFar, currentSum + item.Value, targetSum);
+                if (pathSoFar.Count > 1)
+                {
+                    pathSoFar.RemoveAt(pathSoFar.Count - 1);
+                }
+            }
         }
 
         private static int FindMaxPath(Node node)

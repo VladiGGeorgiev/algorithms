@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /*
  * Define classes File { string name, int size } and Folder { string name, File[] files, Folder[] childFolders } 
@@ -94,6 +91,7 @@ namespace BuildDirectoriesTree
             {
                 string name = currentDirs[i].Name;
                 Folder currentFolder = new Folder(name);
+                
                 TraverseDirs(currentDirs[i].FullName, ref currentFolder);
                 folder.ChildFolders[i] = currentFolder;
             }

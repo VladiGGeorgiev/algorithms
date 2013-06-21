@@ -1,5 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\BuildDirectoriesTree\bin\Release\BuildDirectoriesTree.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\BuildDirectoriesTree\bin\Release\BuildDirectoriesTree.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\BuildDirectoriesTree\bin\Release\BuildDirectoriesTree.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\BuildDirectoriesTree\obj\Release\BuildDirectoriesTree.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\BuildDirectoriesTree\obj\Release\BuildDirectoriesTree.pdb

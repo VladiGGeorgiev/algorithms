@@ -9,14 +9,12 @@ namespace ShortestOperationsSequence
     class Program
     {
         const int N = 5;
-        const int M = 30;
-        static Queue<int[]> allPaths = new Queue<int[]>();
+        const int M = 40;
+        static List<int[]> allPaths = new List<int[]>();
         static Stack<int> currentPath = new Stack<int>();
 
         static void Main(string[] args)
-        {
-            Queue<int> operationsSequence = new Queue<int>();
-            
+        {            
             Tree root = new Tree(N);
             var treeOfSteps = CreateTree(root, N, M);
 
@@ -53,7 +51,10 @@ namespace ShortestOperationsSequence
             currentPath.Push(node.Value);
             if (node.Value == M)
             {
-                allPaths.Enqueue(currentPath.ToArray());
+                if (allPaths.Count == 0 || currentPath.Count < allPaths[0].Count())
+                {
+                    allPaths.Add(currentPath.ToArray());
+                }
             }
             foreach (var child in node.Children)
             {

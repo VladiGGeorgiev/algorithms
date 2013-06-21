@@ -21,12 +21,12 @@ namespace TraverseDirectory
         {
             string path = "C:\\Windows";
 
-            GetDirectories(path);
+            TraverseDirectories(path);
 
             Console.WriteLine(string.Join("\n", exeFiles));
         }
 
-        private static void GetDirectories(string path)
+        private static void TraverseDirectories(string path)
         {
             try
             {
@@ -35,7 +35,7 @@ namespace TraverseDirectory
                 string[] currentDirectories = Directory.GetDirectories(path);
                 foreach (var directory in currentDirectories)
                 {
-                    GetDirectories(directory);
+                    TraverseDirectories(directory);
                 }
             }
             catch (UnauthorizedAccessException)
@@ -46,13 +46,10 @@ namespace TraverseDirectory
   
         private static void GetFilesFromDirectory(string path)
         {
-            string[] currentPathFiles = Directory.GetFiles(path);
+            string[] currentPathFiles = Directory.GetFiles(path, "*.exe");
             foreach (var file in currentPathFiles)
             {
-                if (file.EndsWith(".exe"))
-                {
-                    exeFiles.Enqueue(file);
-                }
+                exeFiles.Enqueue(file);
             }
         }
     }

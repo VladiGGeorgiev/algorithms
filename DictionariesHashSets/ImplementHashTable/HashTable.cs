@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 
 namespace ImplementHashTable
 {
-    class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
+    public class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
     {
         LinkedList<KeyValuePair<K, T>>[] list;
         private int count;
@@ -18,6 +17,23 @@ namespace ImplementHashTable
             this.list = new LinkedList<KeyValuePair<K, T>>[capacity];
             this.count = 0;
             this.capacity = capacity;
+        }
+
+        public IEnumerable<T> Values
+        {
+            get
+            {
+                foreach (var node in this.list)
+                {
+                    if (node != null)
+                    {
+                        while (node.First != null)
+                        {
+                            yield return node.First.Value.Value;
+                        }
+                    }
+                }
+            }
         }
 
         public int Count

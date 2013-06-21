@@ -1,6 +1,0 @@
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TreesAndTraversals\bin\Debug\TreesAndTraversals.exe.config
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TreesAndTraversals\bin\Debug\TreesAndTraversals.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TreesAndTraversals\bin\Debug\TreesAndTraversals.pdb
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TreesAndTraversals\obj\Debug\Tree.csprojResolveAssemblyReference.cache
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TreesAndTraversals\obj\Debug\TreesAndTraversals.exe
-D:\PROGRAMMING\CODES\DataStructures-Algorithms\TreesAndTraversals\TreesAndTraversals\obj\Debug\TreesAndTraversals.pdb

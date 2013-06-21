@@ -18,11 +18,10 @@ namespace ImplementHashTable
             table.Add("Acho", 3);
             table.Remove("Pesho");
             table["Pisch"] = 5;
-            table.Clear();
 
             foreach (var item in table)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(item.Value);
             }
         }
     }
