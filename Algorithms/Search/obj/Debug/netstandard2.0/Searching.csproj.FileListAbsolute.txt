@@ -1,0 +1,9 @@
+C:\Dev\Algorithms\Algorithms\Search\bin\Debug\netstandard2.0\Searching.deps.json
+C:\Dev\Algorithms\Algorithms\Search\bin\Debug\netstandard2.0\Searching.dll
+C:\Dev\Algorithms\Algorithms\Search\bin\Debug\netstandard2.0\Searching.pdb
+C:\Dev\Algorithms\Algorithms\Search\obj\Debug\netstandard2.0\Searching.csprojAssemblyReference.cache
+C:\Dev\Algorithms\Algorithms\Search\obj\Debug\netstandard2.0\Searching.AssemblyInfoInputs.cache
+C:\Dev\Algorithms\Algorithms\Search\obj\Debug\netstandard2.0\Searching.AssemblyInfo.cs
+C:\Dev\Algorithms\Algorithms\Search\obj\Debug\netstandard2.0\Searching.csproj.CoreCompileInputs.cache
+C:\Dev\Algorithms\Algorithms\Search\obj\Debug\netstandard2.0\Searching.dll
+C:\Dev\Algorithms\Algorithms\Search\obj\Debug\netstandard2.0\Searching.pdb
