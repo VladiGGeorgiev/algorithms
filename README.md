@@ -1,6 +1,3 @@
-# Algorithms
-Data Structures and Algorithms problems.
-
 ## Algorithms Course
 You can find implementation of data structures and algorithms made back in 2012.
 
