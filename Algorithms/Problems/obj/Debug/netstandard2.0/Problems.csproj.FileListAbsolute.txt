@@ -1,9 +1,0 @@
-C:\Dev\Algorithms\Algorithms\Problems\bin\Debug\netstandard2.0\Problems.deps.json
-C:\Dev\Algorithms\Algorithms\Problems\bin\Debug\netstandard2.0\Problems.dll
-C:\Dev\Algorithms\Algorithms\Problems\bin\Debug\netstandard2.0\Problems.pdb
-C:\Dev\Algorithms\Algorithms\Problems\obj\Debug\netstandard2.0\Problems.csprojAssemblyReference.cache
-C:\Dev\Algorithms\Algorithms\Problems\obj\Debug\netstandard2.0\Problems.AssemblyInfoInputs.cache
-C:\Dev\Algorithms\Algorithms\Problems\obj\Debug\netstandard2.0\Problems.AssemblyInfo.cs
-C:\Dev\Algorithms\Algorithms\Problems\obj\Debug\netstandard2.0\Problems.csproj.CoreCompileInputs.cache
-C:\Dev\Algorithms\Algorithms\Problems\obj\Debug\netstandard2.0\Problems.dll
-C:\Dev\Algorithms\Algorithms\Problems\obj\Debug\netstandard2.0\Problems.pdb
