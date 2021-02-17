@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Test;
 
 namespace DynamicProgramming
 {
@@ -39,9 +40,9 @@ namespace DynamicProgramming
             var bestSumResult = bestSumFinder.Find(7, new int[] { 5, 3, 4, 7 });
 
             var stringConstructor = new StringConstructor();
-            var canConstruct = stringConstructor.CanConstruct("skateboard", 
-            var stringConstructor = new StringConstructor();
             var canConstruct = stringConstructor.CanConstruct("skateboard", new string[] { "bo", "rd", "ate", "t", "ska", "sk", "boar" });
+            //var stringConstructor = new StringConstructor();
+            //var canConstruct = stringConstructor.CanConstruct("skateboard", new string[] { "bo", "rd", "ate", "t", "ska", "sk", "boar" });
             var canConstruct2 = stringConstructor.CanConstruct("abcdef", new string[] { "ab", "abc", "cd", "def", "abcd" });
             var canConstruct3 = stringConstructor.CanConstruct("aaaaaaaaaaaaaaaaaaaaaaaaaw", new string[] { "a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa" });
             var canConstruct4 = stringConstructor.CanConstructWithMemoization("aaaaaaaaaaaaaaaaaaaaaaaaaw", new string[] { "a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa" });
@@ -51,6 +52,11 @@ namespace DynamicProgramming
             int waysNumber2 = stringWaysConstructor.FindWaysToConstruct("aaaaaaaaaaaaaaaaaaaaaaaaaw", new string[] { "a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa" }); // 0
             int waysNumber3 = stringWaysConstructor.FindWaysToConstruct("enterapotentpot", new string[] { "a", "p", "ent", "enter", "ot", "o", "t" }); // 4
             var waysNumber4 = stringWaysConstructor.FindWaysToConstruct("skateboard", new string[] { "bo", "rd", "ate", "t", "ska", "sk", "boar" }); // 0
+
+            // Coin Change Problem
+            var coinChangeProblem = new CoinChangeProblem();
+            Console.WriteLine(coinChangeProblem.MinimunNumberOfCoinsToMakeChange(10, new List<long>() { 2, 5, 3, 6 }));
+            Console.WriteLine(coinChangeProblem.NumberOfWaysCoinsToMakeChange(10, new List<long>() { 2, 5, 3, 6 }));
         }
     }
 }
