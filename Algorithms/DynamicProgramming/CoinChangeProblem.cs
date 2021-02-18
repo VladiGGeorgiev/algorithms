@@ -30,13 +30,28 @@
             return array[change];
         }
 
+        public long NumberNumberOfWaysCoinsToMakeChangeTopDown(long change, List<long> coins, int position = 0)
+        {
+            if (change == 0) return 1;
+            if (change < 0) return 0;
+
+            long ways = 0;
+            for (int i = position; i < coins.Count; i++)
+            {
+                var way = NumberNumberOfWaysCoinsToMakeChangeTopDown(change - coins[i], coins, i);
+                ways += way;
+            }
+
+            return ways;
+        }
+
         /// <summary>
         ///     Find the minumum number of coins needed to make a change
         /// </summary>
         /// <param name="change">Change</param>
         /// <param name="coins">Coin values</param>
         /// <returns>Minumum number of coins</returns>
-        public long MinimunNumberOfCoinsToMakeChange(long change, List<long> coins)
+        public long MinimumNumberOfCoinsToMakeChange(long change, List<long> coins)
         {
             long[] array = new long[change + 1];
             Array.Fill(array, change + 1);
@@ -54,6 +69,24 @@
             }
 
             return array[change];
+        }
+
+        public long MinimumNumberOfCoinsToMakeChangeTopDown(long change, List<long> coins, int position = 0)
+        {
+            if (change == 0) return 1;
+            if (change < 0) return 0;
+
+            long minWays = change;
+            for (int i = position; i < coins.Count; i++)
+            {
+                var ways = 1 + MinimumNumberOfCoinsToMakeChangeTopDown(change - coins[i], coins, i);
+                if (ways < minWays)
+                {
+                    minWays = ways;
+                }
+            }
+
+            return minWays;
         }
     }
 }

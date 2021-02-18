@@ -52,11 +52,14 @@ namespace DynamicProgramming
             int waysNumber2 = stringWaysConstructor.FindWaysToConstruct("aaaaaaaaaaaaaaaaaaaaaaaaaw", new string[] { "a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa" }); // 0
             int waysNumber3 = stringWaysConstructor.FindWaysToConstruct("enterapotentpot", new string[] { "a", "p", "ent", "enter", "ot", "o", "t" }); // 4
             var waysNumber4 = stringWaysConstructor.FindWaysToConstruct("skateboard", new string[] { "bo", "rd", "ate", "t", "ska", "sk", "boar" }); // 0
-
+            
             // Coin Change Problem
             var coinChangeProblem = new CoinChangeProblem();
-            Console.WriteLine(coinChangeProblem.MinimunNumberOfCoinsToMakeChange(10, new List<long>() { 2, 5, 3, 6 }));
+            Console.WriteLine(coinChangeProblem.MinimumNumberOfCoinsToMakeChange(10, new List<long>() { 2, 5, 3, 6 }));
+            Console.WriteLine(coinChangeProblem.MinimumNumberOfCoinsToMakeChangeTopDown(10, new List<long>() { 2, 5, 3, 6 }));
             Console.WriteLine(coinChangeProblem.NumberOfWaysCoinsToMakeChange(10, new List<long>() { 2, 5, 3, 6 }));
+            Console.WriteLine(coinChangeProblem.NumberNumberOfWaysCoinsToMakeChangeTopDown(10, new List<long>() { 2, 5, 3, 6 }));
+            
         }
     }
 }
